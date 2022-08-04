@@ -1,5 +1,16 @@
 {
     "workbench.colorTheme": "One Monokai Darker",
     "editor.mouseWheelZoom": true,
-    "editor.rulers": [80]
+    "editor.rulers": [80],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".vscodelocal/": true,
+        ".venv/": true,
+        ".vscode/": true,
+    }
 }
