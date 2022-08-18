@@ -12,10 +12,10 @@ ipython:
 	@.venv/bin/ipython
 
 test:
-	@.venv/bin/pytest -vv -s tests/
+	@.venv/bin/pytest -vv -s
 
 watch:
-	@.venv/bin/ptw -- -vv -s tests/
+	@.venv/bin/ptw -- -vv -s
 
 clean:            ## Clean unused files.
 	@find ./ -name '*.pyc' -exec rm -f {} \;
